@@ -1,2 +1,2 @@
 #!/bin/bash
-ls path/to/dir | wc -l
+ls $PATH=/bin::::/home:/usr:::::/home/me | wc -l
